@@ -6,3 +6,11 @@ hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("open");
 });
 
+
+const navLinks = document.querySelectorAll('.nav-link');
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    hamBurger.classList.remove('active');
+    navToggle.classList.remove('active');
+  });
+});
