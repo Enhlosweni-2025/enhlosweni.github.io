@@ -29,7 +29,8 @@ p {
 
 /* Navbar */
 .navbar {
-  display: flex;
+  display: flex !important;
+  visibility: visible !important;
   justify-content: space-between;
   align-items: center;
   padding: 20px 60px;
@@ -903,6 +904,7 @@ footer {
 .btn-secondary:hover {
   background: #f0f0f0;
 }
+
 
 
 
