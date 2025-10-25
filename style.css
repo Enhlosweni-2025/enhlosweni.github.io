@@ -717,39 +717,6 @@ footer {
   font-size: 0.9rem;
 }
 
-/* Navbar */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: right;
-  padding: 20px 60px;
-  background: linear-gradient(90deg, #003366, #0066cc);
-  color: white;
-}
-
-.navbar .logo {
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-
-.navbar .nav-links {
-  list-style: none;
-  display: flex;
-  gap: 25px;
-}
-
-.navbar .nav-links a {
-  text-decoration: none;
-  color: white;
-  font-weight: 500;
-}
-
-.navbar .nav-links a.active,
-.navbar .nav-links a:hover {
-  border-bottom: 2px solid #fff;
-  padding-bottom: 5px;
-}
-
 /* Hero Section */
 .portfolio-hero {
   background: linear-gradient(to right, #003366, #0066cc);
@@ -906,63 +873,6 @@ footer {
 }
 
 /* Mobile Navigation Styles */
-.menu-toggle {
-    display: none;
-    flex-direction: column;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0.5rem;
-}
-
-.hamburger {
-    width: 25px;
-    height: 3px;
-    background: white;
-    margin: 3px 0;
-    transition: 0.3s;
-}
-
-/* Mobile Responsive Styles */
-@media (max-width: 768px) {
-    /* Navbar Mobile Styles */
-    .navbar {
-        padding: 15px 20px;
-        flex-wrap: wrap;
-        position: relative;
-    }
-
-    .menu-toggle {
-        display: flex;
-        order: 2;
-    }
-
-    .nav-links {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background: linear-gradient(90deg, #003366, #0066cc);
-        flex-direction: column;
-        padding: 1rem 0;
-        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-        z-index: 1000;
-    }
-
-    .nav-links.active {
-        display: flex;
-    }
-
-    .nav-links li {
-        text-align: center;
-        padding: 0.5rem 0;
-    }
-
-    .nav-links a {
-        display: block;
-        padding: 0.5rem 0;
-    }
 
     /* Logo adjustment for mobile */
     .logo {
@@ -1226,6 +1136,7 @@ footer {
 .menu-toggle .hamburger {
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
+
 
 
 
